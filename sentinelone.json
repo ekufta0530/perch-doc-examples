@@ -1,0 +1,231 @@
+{
+  "_index": "2019-12-09-sentinelone-records",
+  "_type": "_doc",
+  "_id": "UC6I624BbHSPf3kSVcKA",
+  "_version": 1,
+  "_score": null,
+  "_source": {
+    "perch_company": 10477,
+    "type": "sensortocloud",
+    "activityType": "Device control approved event",
+    "secondaryDescription": null,
+    "userId": null,
+    "@timestamp": "2019-12-09T16:40:09.349Z",
+    "hash": null,
+    "COMPANY": 10477,
+    "primaryDescription": "USB device Generic USB Audio was  connected on PHOLBROOK2-LT.",
+    "siteId": "549920501701053873",
+    "event_type": "sentinelone",
+    "updatedAt": "2019-12-09T16:39:39.255483Z",
+    "osFamily": null,
+    "@version": "1",
+    "groupId": "549920501726219698",
+    "createdAt": "2019-12-09T16:39:39.257425Z",
+    "comments": null,
+    "timestamp": "2019-12-09T16:39:39.257425Z",
+    "threatId": null,
+    "description": null,
+    "agentId": "746084191348442341",
+    "data": {
+      "minorClass": "N/A",
+      "osType": "windows",
+      "lastLoggedInUserName": "eric.kufta",
+      "eventId": "{6853a649-67a2-11ea-9923-806e6f6e6963}",
+      "eventTime": "2019-12-09T16:39:13.276+00:00",
+      "productId": "402E",
+      "ruleName": null,
+      "ruleType": "productId",
+      "interface": "USB",
+      "groupId": "549920501096219698",
+      "computerName": "Eric-macOS",
+      "eventType": "connected",
+      "vendorId": "BDA",
+      "scopeName": "Eric-testTest (Perch (WeWorkDenver)) Default Group",
+      "creator": "N/A",
+      "profileUuids": "N/A",
+      "lmpVersion": "N/A",
+      "ruleScopeName": null,
+      "ruleId": -1,
+      "uid": "200901010001",
+      "deviceName": "Generic USB Audio",
+      "deviceClass": "00h",
+      "version": "N/A"
+    },
+    "accountId": "436426908751878026",
+    "perch_company_name": "terransiblerex",
+    "agentUpdatedVersion": null,
+    "tags": [
+      "logstash1"
+    ],
+    "id": "777562698324210167",
+    "agentDetails": {
+      "osType": "windows",
+      "totalMemory": 16263,
+      "agentVersion": "3.4.4.51",
+      "allowRemoteShell": true,
+      "appsVulnerabilityStatus": "up_to_date",
+      "modelName": "Dell Inc. - Latitude 5570",
+      "isDecommissioned": false,
+      "networkInterfaces": [
+        {
+          "name": "Ethernet 4",
+          "physical": "d8:a7:90:18:d6:52",
+          "id": "777340904784542348",
+          "inet": [
+            "10.0.103.84"
+          ],
+          "inet6": [
+            "fe80::1513:ee5:60d0:1946"
+          ]
+        },
+        {
+          "name": "VMnet01",
+          "physical": "0a:a4:27:00:00:14",
+          "id": "776157105791745676",
+          "inet": [
+            "192.168.58.1"
+          ],
+          "inet6": [
+            "fe80::a1f3:ce5b:2184:9e4b"
+          ]
+        },
+        {
+          "name": "Npcap Loopback Adapter",
+          "physical": "02:00:4c:4f:4f:50",
+          "id": "774809559283350471",
+          "inet": [
+            "169.235.77.152"
+          ],
+          "inet6": [
+            "fe80::7175:345c:1540:4d98"
+          ]
+        },
+        {
+          "name": "VMnet8",
+          "physical": "00:40:56:c0:00:08",
+          "id": "746984191455437296",
+          "inet": [
+            "169.254.141.188",
+            "169.254.141.188"
+          ],
+          "inet6": [
+            "fe80::a986:74c8:39bf:8dbc"
+          ]
+        },
+        {
+          "name": "VMware Network Adapter VMnet1",
+          "physical": "00:50:56:c0:00:01",
+          "id": "746984191491048687",
+          "inet": [
+            "169.254.35.178",
+            "169.254.35.178"
+          ],
+          "inet6": [
+            "fe80::5923:6e2e:df80:23b2"
+          ]
+        }
+      ],
+      "activeThreats": 0,
+      "osArch": "64 bit",
+      "siteId": "549920501701053873",
+      "mitigationModeSuspicious": "protect",
+      "consoleMigrationStatus": "N/A",
+      "locationType": "fallback",
+      "scanStartedAt": null,
+      "computerName": "eric-LT",
+      "machineType": "laptop",
+      "osName": "Windows 10 Pro",
+      "isUpToDate": true,
+      "groupName": "Default Group",
+      "encryptedApplications": false,
+      "osRevision": "18362",
+      "lastActiveDate": "2019-12-09T16:39:42.098826Z",
+      "osStartTime": "2019-12-09T16:39:01Z",
+      "isPendingUninstall": false,
+      "isUninstalled": false,
+      "userActionsNeeded": [],
+      "isActive": true,
+      "domain": "CORP",
+      "scanAbortedAt": null,
+      "coreCount": 8,
+      "locations": [
+        {
+          "name": "Fallback",
+          "id": "654810523487310832",
+          "scope": "global"
+        }
+      ],
+      "cpuCount": 8,
+      "lastLoggedInUserName": "eric",
+      "networkStatus": "connected",
+      "mitigationMode": "protect",
+      "scanStatus": "none",
+      "uuid": "8b8487eb480d77a0836a7589899fcfc0",
+      "accountName": "terransiblerex (Carvir)",
+      "licenseKey": "",
+      "osUsername": null,
+      "inRemoteShellSession": false,
+      "cpuId": "Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz",
+      "updatedAt": "2019-12-09T16:39:42.098826Z",
+      "groupId": "549920501726219698",
+      "infected": false,
+      "createdAt": "2019-10-28T15:24:14.747831Z",
+      "scanFinishedAt": null,
+      "registeredAt": "2019-10-28T15:24:14.743938Z",
+      "groupIp": "64.58.243.x",
+      "externalId": null,
+      "accountId": "4264265676751878026",
+      "externalIp": "64.56.243.34",
+      "id": "746984191348442341",
+      "activeDirectory": {
+        "lastUserDistinguishedName": "CN=eric kufta,OU=SOC,OU=PA,OU=Continuum,DC=corp,DC=continuum,DC=net",
+        "computerDistinguishedName": "CN=eric-LT,OU=SOC Computers,OU=SOC,OU=PA,OU=Continuum,DC=corp,DC=continuum,DC=net",
+        "computerMemberOf": [],
+        "lastUserMemberOf": [
+          "CN=Service Desk,OU=Continuum Security Groups,OU=Continuum,DC=corp,DC=continuum,DC=net",
+          "CN=okta_concur,OU=Okta_Groups,OU=Continuum,DC=corp,DC=continuum,DC=net",
+          "CN=VPN_Users,OU=Continuum Security Groups,OU=Continuum,DC=corp,DC=continuum,DC=net",
+          "CN=ServiceDesk_VPN,OU=Continuum Security Groups,OU=Continuum,DC=corp,DC=continuum,DC=net",
+          "CN=okta_adp,OU=Okta_Groups,OU=Continuum,DC=corp,DC=continuum,DC=net",
+          "CN=SOC,OU=NOC OU,OU=Mumbai,OU=Continuum,DC=corp,DC=continuum,DC=net"
+        ]
+      },
+      "siteName": "Phil-Test"
+    }
+  },
+  "fields": {
+    "agentDetails.createdAt": [
+      "2019-10-28T15:24:14.747Z"
+    ],
+    "createdAt": [
+      "2019-12-09T16:39:39.257Z"
+    ],
+    "@timestamp": [
+      "2019-12-09T16:40:09.349Z"
+    ],
+    "data.eventTime": [
+      "2019-12-09T16:39:13.276Z"
+    ],
+    "agentDetails.registeredAt": [
+      "2019-10-28T15:24:14.743Z"
+    ],
+    "agentDetails.osStartTime": [
+      "2019-12-09T16:39:01.000Z"
+    ],
+    "agentDetails.updatedAt": [
+      "2019-12-09T16:39:42.098Z"
+    ],
+    "agentDetails.lastActiveDate": [
+      "2019-12-09T16:39:42.098Z"
+    ],
+    "timestamp": [
+      "2019-12-09T16:39:39.257Z"
+    ],
+    "updatedAt": [
+      "2019-12-09T16:39:39.255Z"
+    ]
+  },
+  "sort": [
+    1575909579257
+  ]
+}
