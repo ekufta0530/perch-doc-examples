@@ -1,0 +1,81 @@
+{
+  "_index": "2019-12-09-duo-records",
+  "_type": "_doc",
+  "_id": "rx2W624BhLeJ0QcNAQUC",
+  "_version": 1,
+  "_score": null,
+  "_source": {
+    "geoip": {
+      "longitude": -78.2134,
+      "latitude": 40.8125
+    },
+    "access_device": {
+      "location": {
+        "state": "Colorado",
+        "city": "Denver",
+        "country": "United States"
+      },
+      "coordinates": [
+        39.2134,
+        -106.8988
+      ],
+      "browser_version": "78.0.3904.108",
+      "os": "Windows",
+      "hostname": null,
+      "ip": "76.105.66.38",
+      "os_version": "7",
+      "browser": "Chrome",
+      "flash_version": "uninstalled",
+      "java_version": "uninstalled"
+    },
+    "timestamp": "2019-12-09T16:50:31.000Z",
+    "duo_sub_type": "authentication",
+    "type": "sensortocloud",
+    "txid": "8dc6b1b3-245e-438b-b65e-4b0be6c6af92",
+    "@timestamp": "2019-12-09T16:55:05.957Z",
+    "COMPANY": 10477,
+    "user": {
+      "name": "ekufta",
+      "key": "DU6PCILIASRGTDTNGX2N"
+    },
+    "duo_event_type": "authentication",
+    "result": "success",
+    "auth_device": {
+      "name": "903-607-7980",
+      "ip": "76.105.66.38",
+      "coordinates": [
+        -73.2134,
+        40.8125
+      ],
+      "location": {
+        "state": "Colorado",
+        "city": "Denver",
+        "country": "United States"
+      }
+    },
+    "tags": [
+      "logstash1"
+    ],
+    "factor": "duo_push",
+    "event_type": "duo",
+    "reason": "user_approved",
+    "perch_company_name": "terransiblerex",
+    "application": {
+      "name": "Microsoft OWA 1",
+      "key": "DI0GRTY9DNFM5CR43NPX"
+    },
+    "@version": "1",
+    "perch_company": 1477
+  },
+  "fields": {
+    "@timestamp": [
+      "2019-12-09T16:55:05.957Z"
+    ],
+    "timestamp": [
+      "2019-12-09T16:50:31.000Z"
+    ]
+  },
+  "sort": [
+    1575910231000
+  ]
+}
