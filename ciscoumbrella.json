@@ -1,0 +1,50 @@
+{
+  "_index": "2019-12-09-ciscoumbrella-records",
+  "_type": "_doc",
+  "_id": "slef344BacnMQjhuLzcp",
+  "_version": 1,
+  "_score": null,
+  "_source": {
+    "query_type": "28 (AAAA)",
+    "perch_company": 10477,
+    "type": "sensortocloud",
+    "identity_types": "AD Users,Roaming Computers",
+    "@timestamp": "2019-12-09T17:05:07.937Z",
+    "most_granular_identity_type": "",
+    "COMPANY": 10477,
+    "event_type": "ciscoumbrella",
+    "@version": "1",
+    "internal_ip": "192.168.0.89",
+    "timestamp": "2019-12-09T17:02:47.000Z",
+    "most_granular_identity": "ZGAHAMANYI",
+    "response_code": "SERVFAIL",
+    "external_ip": "76.140.153.146",
+    "tags": [
+      "logstash1"
+    ],
+    "categories": [
+      "News/Media",
+      "Television",
+      "Sports",
+      "Infrastructure",
+      "Application"
+    ],
+    "identities": "Eric Kufta (eric@perhsecurity.com),ZGAHAMANYI",
+    "blocked_categories": "",
+    "perch_company_name": "Quartet Service Inc",
+    "domain": "media.video-cdn.espn.com.",
+    "event_subtype": "2019-12-09",
+    "action": "Allowed"
+  },
+  "fields": {
+    "@timestamp": [
+      "2019-12-09T17:05:07.937Z"
+    ],
+    "timestamp": [
+      "2019-12-09T17:02:47.000Z"
+    ]
+  },
+  "sort": [
+    1575910967000
+  ]
+}
