@@ -1,0 +1,191 @@
+{
+  "_index": "2020-02-13-sentinelone-records",
+  "_type": "_doc",
+  "_id": "R9BNP3AB5JsYy-O7fs7D",
+  "_version": 1,
+  "_score": null,
+  "_source": {
+    "updatedAt": "2020-02-13T16:06:40.845250Z",
+    "osFamily": null,
+    "threatId": null,
+    "timestamp": "2020-02-13T16:06:40.850040Z",
+    "hash": null,
+    "description": null,
+    "secondaryDescription": null,
+    "COMPANY": 10575,
+    "perch_company": 10575,
+    "perch_company_name": "",
+    "@version": "1",
+    "tags": [
+      "logstash3"
+    ],
+    "primaryDescription": "USB device Logitech USB Receiver was  connected on SSBP-WKS-17.",
+    "data": {
+      "version": "N/A",
+      "scopeName": "Soares, Sandall, Bernacchi, & Petrovich (CPI Solutions) Oxnard 8x5",
+      "productId": "C52B",
+      "vendorId": "46D",
+      "eventTime": "2020-02-13T16:06:30.764+00:00",
+      "ruleName": null,
+      "computerName": "SSBP-WKS-17",
+      "uid": "",
+      "lmpVersion": "N/A",
+      "ruleType": "productId",
+      "eventType": "connected",
+      "deviceClass": "00h",
+      "interface": "USB",
+      "minorClass": "N/A",
+      "profileUuids": "N/A",
+      "ruleId": -1,
+      "eventId": "{c9b0b92c-4e7a-11ea-8fd1-806e6f6e6963}",
+      "ruleScopeName": null,
+      "groupId": "767460700879355728",
+      "deviceName": "Logitech USB Receiver",
+      "creator": "N/A",
+      "osType": "windows",
+      "lastLoggedInUserName": "Shannon"
+    },
+    "@timestamp": "2020-02-13T16:06:46.114Z",
+    "activityType": "Device control approved event",
+    "agentId": "777469227973519831",
+    "siteId": "767382586512882932",
+    "userId": null,
+    "event_type": "sentinelone",
+    "accountId": "650633739679403469",
+    "groupId": "767460700879355728",
+    "comments": null,
+    "agentUpdatedVersion": null,
+    "id": "825281328531394800",
+    "agentDetails": {
+      "cpuCount": 6,
+      "allowRemoteShell": true,
+      "installerType": ".exe",
+      "osRevision": "18362",
+      "updatedAt": "2020-02-13T16:06:41.553428Z",
+      "machineType": "desktop",
+      "rangerVersion": null,
+      "isDecommissioned": false,
+      "userActionsNeeded": [],
+      "isPendingUninstall": false,
+      "modelName": "Dell Inc. - OptiPlex 3060",
+      "encryptedApplications": false,
+      "consoleMigrationStatus": "N/A",
+      "scanFinishedAt": "2019-12-09T18:19:51.867147Z",
+      "scanStatus": "finished",
+      "licenseKey": "",
+      "groupIp": "96.229.145.x",
+      "domain": "OX1",
+      "cpuId": "Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz",
+      "locations": [
+        {
+          "scope": "global",
+          "id": "",
+          "name": "Fallback"
+        }
+      ],
+      "infected": false,
+      "siteId": "767382586512882932",
+      "osType": "windows",
+      "mitigationModeSuspicious": "protect",
+      "scanStartedAt": "2019-12-09T16:54:37.652542Z",
+      "osUsername": null,
+      "networkStatus": "connected",
+      "lastLoggedInUserName": "Shannon",
+      "inRemoteShellSession": false,
+      "osStartTime": "2020-02-13T16:06:27Z",
+      "appsVulnerabilityStatus": "patch_required",
+      "rangerStatus": "NotApplicable",
+      "scanAbortedAt": null,
+      "osArch": "64 bit",
+      "isActive": true,
+      "computerName": "",
+      "coreCount": 6,
+      "uuid": "0fcfc881ec7b41b5a2bb707ce4df2b98",
+      "accountName": "",
+      "mitigationMode": "protect",
+      "networkInterfaces": [
+        {
+          "inet6": [
+            "fe80::990c:7822:8871:cd21"
+          ],
+          "physical": "54:bf:64:86:e9:22",
+          "id": "777469227990297048",
+          "inet": [
+            "192.168.42.194"
+          ],
+          "name": "Ethernet"
+        }
+      ],
+      "isUpToDate": true,
+      "agentVersion": "3.6.6.104",
+      "osName": "Windows 10 Pro",
+      "externalId": "",
+      "activeThreats": 0,
+      "externalIp": "96.229.145.242",
+      "lastActiveDate": "2020-02-13T16:06:41.553428Z",
+      "siteName": "Denver-x0",
+      "totalMemory": 16207,
+      "accountId": "",
+      "groupId": "756460700879355728",
+      "id": "777469227973519831",
+      "locationType": "fallback",
+      "registeredAt": "2019-12-09T16:52:34.311326Z",
+      "activeDirectory": {
+        "computerDistinguishedName": "CN=SSBP-WKS-17,CN=Computers,DC=ox1,DC=ssbp,DC=com",
+        "computerMemberOf": [],
+        "lastUserDistinguishedName": "CN=Shannon Barnes,OU=SSBP_Users,DC=ox1,DC=ssbp,DC=com",
+        "lastUserMemberOf": [
+          "CN=Support,OU=Distribution Groups,OU=SSBP_Users,DC=ox1,DC=ssbp,DC=com",
+          "CN=Everybody,OU=Distribution Groups,OU=SSBP_Users,DC=ox1,DC=ssbp,DC=com",
+          "CN=Ladies,OU=Distribution Groups,OU=SSBP_Users,DC=ox1,DC=ssbp,DC=com",
+          "CN=Staff_not_Partners,OU=Distribution Groups,OU=SSBP_Users,DC=ox1,DC=ssbp,DC=com"
+        ]
+      },
+      "groupName": "Oxnard 8x5",
+      "createdAt": "2019-12-09T16:52:34.314244Z",
+      "isUninstalled": false
+    },
+    "createdAt": "2020-02-13T16:06:40.850040Z"
+  },
+  "fields": {
+    "agentDetails.createdAt": [
+      "2019-12-09T16:52:34.314Z"
+    ],
+    "data.eventTime": [
+      "2020-02-13T16:06:30.764Z"
+    ],
+    "agentDetails.registeredAt": [
+      "2019-12-09T16:52:34.311Z"
+    ],
+    "agentDetails.osStartTime": [
+      "2020-02-13T16:06:27.000Z"
+    ],
+    "agentDetails.updatedAt": [
+      "2020-02-13T16:06:41.553Z"
+    ],
+    "agentDetails.lastActiveDate": [
+      "2020-02-13T16:06:41.553Z"
+    ],
+    "createdAt": [
+      "2020-02-13T16:06:40.850Z"
+    ],
+    "@timestamp": [
+      "2020-02-13T16:06:46.114Z"
+    ],
+    "agentDetails.scanFinishedAt": [
+      "2019-12-09T18:19:51.867Z"
+    ],
+    "agentDetails.scanStartedAt": [
+      "2019-12-09T16:54:37.652Z"
+    ],
+    "timestamp": [
+      "2020-02-13T16:06:40.850Z"
+    ],
+    "updatedAt": [
+      "2020-02-13T16:06:40.845Z"
+    ]
+  },
+  "sort": [
+    1581610000850
+  ]
+}
