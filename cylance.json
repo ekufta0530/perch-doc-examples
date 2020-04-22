@@ -1,0 +1,68 @@
+{
+  "_index": "2020-04-21-log-records",
+  "_type": "_doc",
+  "_id": "Redacted",
+  "_version": 1,
+  "_score": null,
+  "_source": {
+    "facility_label": "kernel",
+    "@version": "1",
+    "message": [
+      "<28>1 2020-04-21T23:11:40.001000Z sysloghost CylancePROTECT ",
+      "Event Type: ScriptControl, Event Name: Alert, Device Name: Redacted, File Path: c:\\windows\\temp\\XXX.vbs, Interpreter: ActiveScript, Interpreter Version: 5.812.10240.16384, Zone Names: (Agent Update Test,Block Mode Zone), User Name: SYSTEM, Device Id: 6d0dfedc-580a-46a4-a80b-808c16228d0e, Policy Name: Alert Mode Policy"
+    ],
+    "perch_sensor_id": 1234,
+    "cylance": {
+      "Path": "c:\\windows\\temp\\XXXX.vbs",
+      "Name": [
+        "Alert",
+        "redacted",
+        "SYSTEM",
+        "Alert"
+      ],
+      "Version": "5.812.10240.16384",
+      "Type": "ScriptControl",
+      "Interpreter": "ActiveScript",
+      "Names": "Agent Update Test,Block Mode Zone",
+      "Id": "6d0dfedc-580a-46a4-a80b-808c16228d0e"
+    },
+    "severity": 0,
+    "src_ip": "52.72.144.44",
+    "timestamp": "2020-04-21T23:47:45.489Z",
+    "perch_company": 1234,
+    "type": "sensortocloud",
+    "perch_geohash": "redacted",
+    "perch_company_name": "redacted",
+    "severity_label": "Emergency",
+    "event_type": "log",
+    "perch_sensor_nick": "Flossy_grooves",
+    "facility": 0,
+    "@timestamp": "2020-04-21T23:49:52.646Z",
+    "COMPANY": 1234,
+    "event_subtype": "syslog",
+    "tags": [
+      "logstash18",
+      "partition220",
+      "EPP",
+      "Cylance",
+      "!SyslogRFC"
+    ],
+    "priority": 0
+  },
+  "fields": {
+    "@timestamp": [
+      "2020-04-21T23:49:52.646Z"
+    ],
+    "timestamp": [
+      "2020-04-21T23:47:45.489Z"
+    ]
+  },
+  "highlight": {
+    "COMPANY": [
+      "@kibana-highlighted-field@1005@/kibana-highlighted-field@"
+    ]
+  },
+  "sort": [
+    1587512865489
+  ]
+}
